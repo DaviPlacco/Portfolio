@@ -1,0 +1,83 @@
+html, body{
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+li{
+    display: inline;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    padding: 25px;
+    
+}
+li:hover{
+    background-color: white ;
+    transition: all .4s;
+    color: black;    
+}
+   
+.menu, li{
+    list-style: none;
+    text-align: center;
+    box-sizing: border-box;
+    align-items: stretch;
+}
+.j{
+    justify-content: center;
+    display: flex;
+    background-color: black;
+    margin: none;
+    text-align: justify;
+    height: 50px;
+}
+.Blog{
+    color: black;
+    font-family: Georgia;
+    font-size: 35px;
+    text-align: center;
+}
+.container{
+    width: 100%;
+    text-align: center;
+	text-decoration: none;
+}
+button{
+    width: 250px;
+    height: 70px;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    background-color: rgb(255, 255, 255);
+    border: 2px, rgb(255, 255, 255);
+    border-radius: 6px;
+	text-decoration: none;
+    animation: fade 3s 1s ease-in;
+    overflow: auto;
+    resize: both;
+}
+@keyframes fade{
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+button:hover{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    background-color: rgb(0, 0, 0);
+    border: 2px, rgb(0, 0, 0);
+    border-radius: 3px;
+	transition: all .4s;
+}
+.spiner{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    border-bottom:  solid blue;
+    animation: spin 1.5s infinite linear;
+
+}
+@keyframes spin{
+    to {transform: rotate(1turn);}
+}
+.oi{
+    display: flex;
+    justify-content: center;
+}
