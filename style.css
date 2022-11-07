@@ -41,6 +41,12 @@ li:hover{
     text-align: center;
 	text-decoration: none;
 }
+.container2{
+    width: 100%;
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+}
 button{
     width: 250px;
     height: 70px;
