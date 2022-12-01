@@ -1,7 +1,9 @@
+/* The simple Design and mono. colors choise */
 body{
     margin: 0;
     padding: 0;
 }
+/* Header container */
 .header-container{
     width: 100vw;
     height: 100vh;
@@ -216,6 +218,7 @@ a:hover{
     transform: scale(1.1);
     cursor: grab;
 }
+/* Main container here */
 .container{
     height: auto;
     width: auto;
@@ -303,16 +306,7 @@ a:hover{
     color: rgb(255, 255, 255);
     
 }
-.footer{
-    display: flex;
-    font-size: 15px;
-    width: 100vw;
-    height: 80px;
-    background-color: black;
-    color: white;
-    align-items: center;
-    justify-content: center;
-}
+/* The button below has the simple hover animation - Turn the animation only whith the box-shadow atribute */
 .botão1{
     width: 100px;
     height: 30px;
@@ -354,6 +348,7 @@ a:hover{
     justify-content: center;
     transition: 0.5s ease-in-out;
     animation: fade-1 2.5s ease-in-out;
+    margin: 20px 0 0 0;
     text-decoration: none;
 }
 .botão2 a{
@@ -398,4 +393,15 @@ a:hover{
     scale: 1.05;
     box-shadow: 0px 5px 5px 0px black;
     cursor: grabbing;
+}
+/* Footer container here */
+.footer{
+    display: flex;
+    font-size: 15px;
+    width: 100vw;
+    height: 80px;
+    background-color: black;
+    color: white;
+    align-items: center;
+    justify-content: center;
 }
