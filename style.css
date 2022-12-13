@@ -239,11 +239,11 @@ a:hover{
     justify-content: center;
     align-items: center;
     margin: 3rem 0 0 0;
-    border-radius: 100%;
+    border-radius: 10%;
     margin-left: 10px;
     display: flex;
     background-color: white;
-    background-image: url(background.jpg);
+    background-image: url(/eletrac.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -271,7 +271,7 @@ a:hover{
     content: '';
     height: 100px;
     width: 100px;
-    border-radius: 50%;
+    border-radius: 10%;
     display: block;
     opacity: 0;
     transition: 0.5s ease-in-out;
@@ -292,7 +292,7 @@ a:hover{
 }
 .card:hover{
     filter: unset;
-    box-shadow: 0px 5px 12px 0px rgba(0, 0, 0, 0.913);
+    box-shadow: 0px 10px 12px 0px rgba(0, 0, 0, 0.913);
 }
 .card:hover > .card-wrapper::before{
     opacity: 1;
@@ -300,6 +300,164 @@ a:hover{
     width: 260px;
 }
 .card:hover > .card-wrapper p{
+    visibility: visible;
+    opacity: 1;
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    
+}
+.card-container2{
+    display: flex;
+    justify-content: space-evenly;
+    width: 90%;
+    align-items: center;
+}
+.card2{
+    width: 300px;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem 0 0 0;
+    border-radius: 10%;
+    margin-left: 10px;
+    display: flex;
+    background-color: white;
+    background-image: url(/login.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: grayscale(0.5);
+    transition: 0.5s ease-in-out;
+    color: black;
+    cursor: pointer;
+}
+.card-text{
+    width: 50%;
+    letter-spacing: 1px;
+    color: rgb(43, 43, 43);
+    text-align: justify;
+}
+.card-wrapper2{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+.card-wrapper2::before{
+    position: absolute;
+    content: '';
+    height: 100px;
+    width: 100px;
+    border-radius: 10%;
+    display: block;
+    opacity: 0;
+    transition: 0.5s ease-in-out;
+    border: 1px solid white;
+}
+.card-wrapper2 h2{
+    font-size: 40px;
+    margin: 0%;
+    text-transform: uppercase;
+    transition: 0.5s ease-in-out;
+}
+.card-wrapper2 p{
+    font-size: 0px;
+    visibility: visible;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: 0.5s ease-in-out;
+}
+.card2:hover{
+    filter: unset;
+    box-shadow: 0px 10px 12px 0px rgba(0, 0, 0, 0.913);
+}
+.card2:hover > .card-wrapper2::before{
+    opacity: 1;
+    height: 260px;
+    width: 260px;
+}
+.card2:hover > .card-wrapper2 p{
+    visibility: visible;
+    opacity: 1;
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    
+}
+.card-container3{
+    display: flex;
+    justify-content: space-evenly;
+    width: 90%;
+    align-items: center;
+}
+.card3{
+    width: 300px;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem 0 0 0;
+    border-radius: 10%;
+    margin-left: 10px;
+    display: flex;
+    background-color: white;
+    background-image: url(/spacex.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: grayscale(0.5);
+    transition: 0.5s ease-in-out;
+    color: black;
+    cursor: pointer;
+}
+.card-text{
+    width: 50%;
+    letter-spacing: 1px;
+    color: rgb(43, 43, 43);
+    text-align: justify;
+}
+.card-wrapper3{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+.card-wrapper3::before{
+    position: absolute;
+    content: '';
+    height: 100px;
+    width: 100px;
+    border-radius: 10%;
+    display: block;
+    opacity: 0;
+    transition: 0.5s ease-in-out;
+    border: 1px solid white;
+}
+.card-wrapper3 h2{
+    font-size: 40px;
+    margin: 0%;
+    text-transform: uppercase;
+    transition: 0.5s ease-in-out;
+}
+.card-wrapper3 p{
+    font-size: 0px;
+    visibility: visible;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: 0.5s ease-in-out;
+}
+.card3:hover{
+    filter: unset;
+    box-shadow: 0px 10px 12px 0px rgba(0, 0, 0, 0.913);
+}
+.card3:hover > .card-wrapper3::before{
+    opacity: 1;
+    height: 260px;
+    width: 260px;
+}
+.card3:hover > .card-wrapper2 p{
     visibility: visible;
     opacity: 1;
     font-size: 14px;
