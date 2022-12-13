@@ -227,6 +227,7 @@ a:hover{
     justify-content: space-evenly;
     margin: 3rem 0;
 }
+/* Card one here */
 .card-container{
     display: flex;
     justify-content: space-evenly;
@@ -243,7 +244,7 @@ a:hover{
     margin-left: 10px;
     display: flex;
     background-color: white;
-    background-image: url(/eletrac.png);
+    background-image: url(eletrac.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -306,6 +307,7 @@ a:hover{
     color: rgb(255, 255, 255);
     
 }
+/* Card Two here */
 .card-container2{
     display: flex;
     justify-content: space-evenly;
@@ -322,7 +324,7 @@ a:hover{
     margin-left: 10px;
     display: flex;
     background-color: white;
-    background-image: url(/login.png);
+    background-image: url(login.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -385,6 +387,7 @@ a:hover{
     color: rgb(255, 255, 255);
     
 }
+/* Card three here */
 .card-container3{
     display: flex;
     justify-content: space-evenly;
@@ -401,7 +404,7 @@ a:hover{
     margin-left: 10px;
     display: flex;
     background-color: white;
-    background-image: url(/spacex.png);
+    background-image: url(spacex.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
