@@ -243,7 +243,7 @@ a:hover{
     margin-left: 10px;
     display: flex;
     background-color: white;
-    background-image: url(/eletrac.png);
+    background-image: url(./eletrac.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -322,7 +322,7 @@ a:hover{
     margin-left: 10px;
     display: flex;
     background-color: white;
-    background-image: url(/login.png);
+    background-image: url(./login.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -401,7 +401,7 @@ a:hover{
     margin-left: 10px;
     display: flex;
     background-color: white;
-    background-image: url(/spacex.png);
+    background-image: url(./spacex.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
