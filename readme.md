@@ -7,7 +7,7 @@
 
 ## This project is about my web portfolio, in it we find a simple yet sophisticated landpage, as is characteristic of my work. Within the same you found projects that I developed, and a little of what summarizes my work, skills and tools that I use!!
 
-[label](readme.md)
+![Alt text](screenshot.png)
 
 ## Autor
 ### Desenvolvido por Davi Placco
