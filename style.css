@@ -3,6 +3,9 @@ body{
     margin: 0;
     padding: 0;
 }
+html{
+    scroll-behavior: smooth;
+}
 /* Header container */
 .header-container{
     width: 100vw;
@@ -23,14 +26,19 @@ h1{
     font-size: 50px;
     text-transform: uppercase;
     letter-spacing: 6px;
-    color: white;
     border-radius: 5px;
     padding: 3px;
-    animation: fade 2s ease-in-out;
+    animation: fade 1.5s ease-in-out;
     display: flex;
     width: fit-content;
     transition: 600ms ease-in-out;
     font-weight: 100;
+    text-decoration: none;
+}
+h1 a{
+    text-decoration: none;
+    color: white;
+    transition: 1.5s ease-in-out;
 }
 @keyframes fade{
     0% {opacity: 0;}
@@ -45,12 +53,18 @@ h1:hover{
 h2{
     text-transform: uppercase;
     letter-spacing: 4px;
-    color: rgb(255, 255, 255);
-    animation: fade2 2.5s ease-in-out;
+    color: white;
+    animation: fade2 1.5s ease-in-out;
     width: fit-content;
     transition: 600ms ease-in-out;
     padding: 3px;
     font-weight: 100;
+    text-decoration: none;
+}
+h2 a{
+    text-decoration: none;
+    color: white;
+    transition: 1.5s ease-in-out;
 }
 @keyframes fade2{
     0% {opacity: 0;}
@@ -87,6 +101,31 @@ a:hover{
     background-color: white;
     color: black;
     
+}
+.set{
+    margin-top: 5rem;
+    margin-bottom: 0;
+    align-content: stretch;
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    transform: rotate(180deg);
+}
+.seta{
+    width: 40px;
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    transition: 600ms ease-in-out;
+    animation: float 2s infinite;
+}
+@keyframes float{
+    0%{opacity: 0;}
+    50%{opacity: 1;}
+    100%{opacity: 0;}
+    0%{transform: translateY(0);}
+    50%{transform: translateY(-5px);}
+    100%{transform: translateY(0);}
 }
 .checkbox-container{
     display: flex;
@@ -460,12 +499,11 @@ a:hover{
     height: 260px;
     width: 260px;
 }
-.card3:hover > .card-wrapper2 p{
+.card3:hover > .card-wrapper3 p{
     visibility: visible;
     opacity: 1;
     font-size: 14px;
     color: rgb(255, 255, 255);
-    
 }
 /* The button below has the simple hover animation - Turn the animation only with the box-shadow atribute */
 .botão1{
@@ -565,4 +603,139 @@ a:hover{
     color: white;
     align-items: center;
     justify-content: center;
+}
+.sep{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+}
+.separate{
+    display: flex;
+    border: solid 1px rgba(0, 0, 0, 0.685);
+    border-radius: 4px;
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: 2rem;
+    background-color: rgb(0, 0, 0, 0.685);
+    transition: 1.5s ease-in-out;
+    animation: fade-5 2s ease-in-out;
+}
+@keyframes fade-5{
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+    0%{transform: translate(-4000px);}
+    100%{transform: translate(0);}
+}
+.aboutcontainer{
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+}
+.about{
+    width: 100px;
+    height: 30px;
+    color: black;
+    border: solid 0.5px black;
+    background-color: transparent;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s ease-in-out;
+    animation: fade-1 2.5s ease-in-out;
+    margin: 20px 0 0 0;
+    text-decoration: none;
+    animation: fade-6 2s ease-in-out;
+}
+@keyframes fade-6{
+    0%{transform: translateX(-1000px);}
+    100%{transform: translateX(0px)}
+}
+.about:hover{
+    scale: 1.05;
+    box-shadow: 0px 5px 5px 0px black;
+    cursor: grabbing;
+    background-color: rgb(244, 244, 244);
+}
+.containerfour{
+    display: flex;
+    margin: 2rem;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    text-align: center;
+}
+.aboutme{
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    align-items: center;
+}
+.aboutme #texto{
+    width: 35%;
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+    transition: 1.5s ease-in-out;
+    animation: fade-4 2s ease-in-out;
+}
+@keyframes fade-4{
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+    0%{transform: translate(300px);}
+    100%{transform: translate(0);}
+}
+.pic img{
+    width: 300px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: solid 2px black;
+    filter: grayscale(0.5);
+    transition: 600ms ease-in-out;
+    animation: fade-3 2s ease-in-out;
+}
+@keyframes fade-3{
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+    0%{transform: translate(-300px);}
+    100%{transform: translate(0);}
+}
+.pic img:hover{
+    filter: unset;
+    box-shadow: 0px 5px 5px 0px black;
+    cursor: grabbing;
+    transform: scale(1.02);
+}
+.tools{
+    display: flex;
+    list-style: none;
+    width: 100vw;
+    gap: 1.5rem;
+    color: black;
+    justify-content: center;
+    filter: grayscale(0.5);
+    animation: fade-2 1.5s ease-in-out;
+}
+@keyframes fade-2{
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+    0%{transform: translateX(-200px);}
+    100%{transform: translate(0);}
+}
+.tools li:hover{
+    filter: unset;
+    transform: scale(1.1);
+}
+.tools li{
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+    justify-content: center;
+    align-items: center;
+    filter: grayscale(0.5);
+    transition: 600ms ease-in-out;
 }
